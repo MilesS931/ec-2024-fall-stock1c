@@ -1,0 +1,26 @@
+mu: 99000
+num_children: 5000
+mutation rate: 0.001
+parent selection: k_tournament_with_replacement
+parent selection kwargs: {'k': 5}
+survival selection: k_tournament_without_replacement
+survival selection kwargs: {'k': 5}
+recombination kwargs: {'method': 'uniform'}
+mutation kwargs: {'bonus': False, 'bounds': ((0, 400), (0, 30))}
+Initial population size: 99000
+Evaluations: 99000
+Local best penalized fitness: 200.6328125
+Local mean penalized fitness: 29.12957757260101
+Local best base fitness: 101
+Local mean base fitness: -49.97778787878788
+Number of valid solutions: 28
+Number of children: 5000
+Number of mutations: 3
+Pre-survival population size: 104000
+Post-survival population size: 99000
+Evaluations: 104000
+Local best penalized fitness: 200.6328125
+Local mean penalized fitness: 32.26864962121212
+Local best base fitness: 101
+Local mean base fitness: -49.97778787878788
+Number of valid solutions: 28
